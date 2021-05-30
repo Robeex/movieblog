@@ -117,6 +117,10 @@ box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
     }
 }
 
+#holder{
+    min-height: 45%;
+    position:relative;
+}
 .information-tab {
     margin: auto;
     color: var(--off-white);
@@ -127,4 +131,13 @@ box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
     background: #252121;
     height: 34px;
     font-size: 14px;
+
+}
+
+footer{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
 }

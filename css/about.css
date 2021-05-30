@@ -1,0 +1,15 @@
+header {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: medium;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    word-break: keep-all;
+}
