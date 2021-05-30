@@ -10,22 +10,27 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css"> 
         <link rel="stylesheet" href="css/style.css">
         <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
+        <link href="slider.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
-        
-<div class="wrapper">
+        <div class="wrapper">
             
-        <ul> 
-        <li><a href="index.html">Home</a></li>  
-        <li><a href="posts.html">All Posts</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
-        <li><a href="about.html">About</a></li>
-        </ul>      
-</div>
-
-<div class="container">
+            <ul> 
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="posts.html">All Posts</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>      
+        </div>
+        <div class="div-content">
+            <img class="mySlides" src="images/img1.jpg" alt="img1">
+            <img class="mySlides" src="images/img2.jpg" alt="img2">
+            <img class="mySlides" src="images/img3.jpg" alt="img3">
+            <img class="mySlides" src="images/img4.jpg" alt="img4">
+        </div>
+        <div class="container">
 
     <div class="card">
 
@@ -83,7 +88,7 @@
                     
                     <a href="" class="button">Read more</a>
 
-                    <button class="share-button"><i
+                    <button id="button" class="share-button"><i
                     class="ri-share-line"></i></button>
 
                 </div>
@@ -92,8 +97,8 @@
 
     </div>  
 
-</div>
-
+        </div>
+        <script src="image-slider.js"></script>
     </body>
 
 </html>
