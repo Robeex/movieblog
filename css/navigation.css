@@ -4,7 +4,11 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #252121;
-
+    border-style: none none solid none;
+    border-color: var(--primary);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {

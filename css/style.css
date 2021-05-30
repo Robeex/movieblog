@@ -16,7 +16,7 @@ html {
 } 
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -117,3 +117,14 @@ box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
     }
 }
 
+.information-tab {
+    margin: auto;
+    color: var(--off-white);
+    width: 100%;
+    border: 2px var(--primary);
+    border-style: solid none none none;
+    text-align: center;
+    background: #252121;
+    height: 34px;
+    font-size: 14px;
+}
