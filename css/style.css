@@ -51,10 +51,12 @@ box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
 .blog-details, .icon-text  {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .icon-text {
     margin-right: 1rem;
+    width: 50%;
 }
 
 .icon-text .icon {
